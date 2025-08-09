@@ -26,5 +26,3 @@ export function saveForm(schema: FormSchema) {
 export function loadFormById(id: string): FormSchema | undefined {
   return loadAllForms().find((f) => f.id === id);
 }
-
-//exit
